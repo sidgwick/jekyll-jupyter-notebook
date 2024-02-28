@@ -33,3 +33,7 @@ jupyter nbconvert --template nbmd --to markdown --stdout decision_stump.ipynb
 把 `decision_stump.ipynb` 转化为 markdown, 使用的模板是 nbmd, 要求它位于 jekyll 项目根目录下面, 因此需要创建一个这样的模板目录, 模板编写请参考[https://nbconvert.readthedocs.io/en/latest/customizing.html](https://nbconvert.readthedocs.io/en/latest/customizing.html), 如果不需要定制模板, 则按照链接里面说明, 简单继承官方的 markdown 模板就好.
 
 我自己使用的模板, 可以参考 [https://github.com/sidgwick/sidgwick.github.io/tree/master/nbmd](https://github.com/sidgwick/sidgwick.github.io/tree/master/nbmd).
+
+## TODO
+
+- [ ] 支持直接通过网络形式拉取 ipynb 资源
